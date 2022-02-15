@@ -29,7 +29,7 @@ public partial class check_news : System.Web.UI.Page
             Label1.Visible = true;
             return;
         }
-       SqlConnection Connection = new SqlConnection("Data Source=sql04.corp.parking.ru,1435;Initial Catalog=YanaSedova-3;User ID=YanaSedova-3;Password=0KfcYUFGf3");
+       SqlConnection Connection = new SqlConnection("Data Source=sql04.corp.parking.ru,1435;Initial Catalog=user-3;User ID=user-3;Password=0KfcYUFGf3");
 //        SqlConnection Connection = new SqlConnection("Data Source=(local);User ID=sa;Password=;database=asp");
         Connection.Open();
 

@@ -18,7 +18,7 @@ public partial class activate : System.Web.UI.Page
             Page.Response.Write("На указанный вами ящик отправлено письмо с просьбой о подтверждении. Перейдите по ссылке в этом письме для завершения регистрации.");
             return;
         }
-        SqlConnection Connection = new SqlConnection("Data Source=sql04.corp.parking.ru,1435;Initial Catalog=YanaSedova-3;User ID=YanaSedova-3;Password=0KfcYUFGf3");
+        SqlConnection Connection = new SqlConnection("Data Source=sql04.corp.parking.ru,1435;Initial Catalog=user-3;User ID=user-3;Password=0KfcYUFGf3");
 //        SqlConnection Connection = new SqlConnection("Data Source=(local);User ID=sa;Password=;database=asp");
         Connection.Open();
         SqlCommand Command = new SqlCommand();
